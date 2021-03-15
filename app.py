@@ -41,8 +41,8 @@ def hello_there(name = None):
 def get_widgets() :
   conn = psycopg2.connect(
     host="192.168.86.27",
-    user="pallen",
-    password="54645464",
+    user="test_user",
+    password="test_user",
     database="test"
   )
   cursor = conn.cursor()
